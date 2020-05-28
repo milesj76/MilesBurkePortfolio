@@ -1,0 +1,138 @@
+@import "buttons.css";
+@import "typography.css";
+@import "colors.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* HEADER SECTION */
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 1em;
+    background: var(--clr-main);
+    align-content: center;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    border: 1px var(--clr-accent) solid;
+    flex-basis: 50%;
+    height: 50%;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column;
+    margin: 0 auto;
+}
+
+.btn-row {
+    margin: 2rem;
+}
+
+
+/* ABOUT SECTION */
+
+
+.about {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: var(--clr-about1);
+}
+
+.about-body {
+    margin: 4rem;
+    color: var(--clr-about2);
+}
+
+.about-row {
+    display: inline-flex;
+    flex-basis: 3;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.about-row2 {
+    display: inline-flex;
+    flex-basis: 3;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.about-row2 .box-1 {
+    order: 2;
+}
+
+.box {
+    border: 1px var(--clr-accent4) solid;
+    padding: 1rem;
+    margin: 0.3rem;
+    /* width: auto; */
+}
+
+.box-1 {
+    flex: 1;
+}
+
+.box-2 {
+    flex: 4;
+}
+
+
+/* PROJECT SECTION */
+
+
+.projects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: var(--clr-projects1);
+    color: var(--clr-projects2);
+}
+
+.projects-body {
+    margin: 1rem auto;
+}
+
+.project-title {
+    text-align: center;
+    margin: 1rem;
+}
+
+
+/* CONTACT SECTION */
+
+
+.contact {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: var(--clr-contact1);
+    color: var(--clr-contact2);
+}
+
+.contact-body {
+    margin: 1rem;
+    padding: 2rem 10rem;
+}
+
+.contact-row {
+    margin: 1rem;
+    justify-content: center;
+}
+
+textarea, input {
+    background-color: var(--clr-accent2);
+}

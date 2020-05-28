@@ -1,0 +1,16 @@
+:root {
+    --clr-main: rgb(50, 140, 189);
+    --clr-main2: rgb(85, 174, 217);
+    --clr-main3: rgb(12, 108, 165);
+    --clr-main4: rgb(9, 89, 141);
+    --clr-accent: rgb(247, 249, 249);
+    --clr-accent2: rgb(226, 229, 229);
+    --clr-accent3: rgb(205, 210, 210);
+    --clr-accent4: rgb(178, 184, 184);
+    --clr-contact1: rgb(24, 33, 51);
+    --clr-contact2: rgb(210, 231, 225);
+    --clr-about1: rgb(3, 35, 42);
+    --clr-about2: rgb(147, 221, 160);
+    --clr-projects1: rgb(220, 49, 70);
+    --clr-projects2: rgb(255, 255, 255);
+}
