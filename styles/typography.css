@@ -20,6 +20,10 @@ strong {
     font-weight: 600;
 }
 
+.header-content small {
+    padding-top: 1em;
+}
+
 .project-title h2 {
     font-size: 4em;
 }
