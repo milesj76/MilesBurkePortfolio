@@ -8,3 +8,13 @@ button {
 button:hover {
     background: var(--clr-accent3);
 }
+
+.btn-project {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.25rem 0.75rem;
+}
+
+.btn-contact {
+    padding: 0.5rem;
+}

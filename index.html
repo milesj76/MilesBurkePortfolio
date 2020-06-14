@@ -13,7 +13,7 @@
         <div class="header-content">
             <h1>I'm Miles.</h1>
             <h2>Howdy.</h2>
-            <small>Front End Development | Music | Epic Gamer</small>
+            <small>Front End Development | Musician | Epic Gamer</small>
     
             <div class="btn-row">
                 <button class="btn-header" id="header-btn1">Get to know me</button>
@@ -25,18 +25,18 @@
 
     <!-- ABOUT -->
     <section class="about">
-        <div class="about-body box">
+        <div class="about-body box-abt">
             <div class="about-row">
-                <div class="box box-1"><strong>Trying to be a little better everyday.</strong></div>
-                <div class="box box-2"><p>A successful step forward can only come when you make the decision to take that first step. I think my first step forward is towards this: to build great things and to be better than I was yesterday. And it's taken me some time to figure it out but I'm here now to make something of myself. I want to work with you to build something. So let's get to work.</p></div>
+                <div class="box-abt box-1"><strong>Trying to be a little better everyday.</strong></div>
+                <div class="box-abt box-2"><p>A successful step forward can only come when you make the decision to take that first step. I think my first step forward is towards this: to build great things and to be better than I was yesterday. And it's taken me some time to figure it out but I'm here now to make something of myself. I want to work with you to build something. So let's get to work.</p></div>
             </div>
             <div class="about-row2">
-                <div class="box box-1"><blockquote>"Maybe he's born with it. Maybe it's just a little food in his teeth."</blockquote></div>
-                <div class="box box-2"><p>I take pride in finding ways to make work enjoyable. I'm doing my best to keep an upbeat attitude and to get along well with my colleagues. I've found these soft skills invaluable to my teams and companies. They keep me sane and seem to be appreciated by my peers. My soft skills will most definitely continue to serve as one of my best assets.</p></div>
+                <div class="box-abt box-1"><blockquote>"Maybe he's born with it. Maybe it's just a little food in his teeth."</blockquote></div>
+                <div class="box-abt box-2"><p>I take pride in finding ways to make work enjoyable. I'm doing my best to keep an upbeat attitude and to get along well with my colleagues. I've found these soft skills invaluable to my teams and companies. They keep me sane and seem to be appreciated by my peers. My soft skills will most definitely continue to serve as one of my best assets.</p></div>
             </div>
             <div class="about-row">
-                <div class="box box-1"><strong>Teaching myself.</strong></div>
-                <div class="box box-2"><p>
+                <div class="box-abt box-1"><strong>Teaching myself.</strong></div>
+                <div class="box-abt box-2"><p>
                     I'm a self-taught programmer who's most familiar with HTML, CSS, and Javascript. I'm familiar with libraries/frameworks like Bootstrap and React, languages like Python, although my focus lately has been to use Vanilla JS in order to get a deeper understanding of it. I'm also very interested in software development and back end development.
                 </p></div>
             </div>
@@ -50,7 +50,23 @@
                 <div class="project-title"><h2>Project Title</h2></div>
                 <div class="project-item">
                     <div class="project-info"><span>Here, a basic project description as well as some sort of image to reference. Both image and button should link to a repository with the project loaded. Even better if you can get it hosted on your domain.</span></div>
-                    <button id="btn-project1">Check it out</button>
+                    <button class="btn-project" id="btn-project1">Check it out</button>
+                </div>
+            </div>
+
+            <div class="project-row box">
+                <div class="project-title"><h2>AlphaMail</h2></div>
+                <div class="project-item">
+                    <div class="project-info"><span>An email service I created with competitive masculinity as a centeral theme. (It's a dumb joke, I know. I try to keep myself entertained with these projects.) I've built it entirely with HTML, CSS and Javascript and hope to have a competetive feature where men who sign up can compete to be the Alpha by out emailing and outranking other men by vote.</span></div>
+                    <button class="btn-project" id="btn-project1">Check it out</button>
+                </div>
+            </div>
+
+            <div class="project-row box">
+                <div class="project-title"><h2>A Portfolio Design</h2></div>
+                <div class="project-item">
+                    <div class="project-info"><span>A quick project I made making some kind of website portfolio based on a design I found online.</span></div>
+                    <button class="btn-project" id="btn-project1">Check it out</button>
                 </div>
             </div>
         </div>
@@ -60,18 +76,20 @@
     <section class="contact">
         <div class="contact-body box">
             <div class="contact-row"><h1>Contact me via email.</h1></div>
-            <form action="" class="contact-form" id="contact-form">
-                <h3>Name</h3>
-                <input type="text" name="name" id="form-name">
-                <h3>Email</h3>
-                <input type="text" name="email" id="form-email">
-                <h3>Subject</h3>
-                <input type="text" name="subject" id="form-subject">
-                <h3>Message</h3>
-                <textarea name="message" id="form-message" cols="30" rows="4"></textarea>
-            </form>
-            <div class="contact-row"><button type="submit" id="form-submit">Submit</button></div>
-            <div class="contact-row"><small>It may take me a little while to respond but thank you for your time!</small></div>
+            <div class="contact-form-container">
+                <form action="" class="contact-form contact-row" id="contact-form">
+                    <h3>Name</h3>
+                    <input type="text" name="name" id="form-name">
+                    <h3>Email</h3>
+                    <input type="text" name="email" id="form-email">
+                    <h3>Subject</h3>
+                    <input type="text" name="subject" id="form-subject">
+                    <h3>Message</h3>
+                    <textarea name="message" id="form-message" cols="30" rows="4"></textarea>
+                </form>
+                <div class="contact-row"><button class="btn-contact" type="submit" id="form-submit">Submit</button></div>
+                <div class="contact-row"><small>It may take me a little while to respond but thank you for your time!</small></div>
+            </div>
         </div>
     </section>
 

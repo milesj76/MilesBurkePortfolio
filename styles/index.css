@@ -86,9 +86,15 @@ header {
 
 .box {
     border: 1px var(--clr-accent4) solid;
+    /* padding: 1rem;
+    margin: 0.3rem; */
+    /* width: auto; */
+}
+
+.box-abt {
+    border: 1px var(--clr-accent4) solid;
     padding: 1rem;
     margin: 0.3rem;
-    /* width: auto; */
 }
 
 .box-1 {
@@ -116,12 +122,25 @@ header {
 }
 
 .projects-body {
-    margin: 1rem auto;
+    margin: 0 auto;
+}
+
+.project-row {
+    margin: 2rem;
 }
 
 .project-title {
     text-align: center;
     margin: 1rem;
+}
+
+.project-item {
+    text-align: center;
+}
+
+.project-info {
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -140,6 +159,8 @@ header {
 .contact-body {
     margin: 1rem;
     padding: 2rem 10rem;
+    display: inherit;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 70rem) {
@@ -151,6 +172,15 @@ header {
 .contact-row {
     margin: 1rem;
     justify-content: center;
+    width: 100%;
+}
+
+.contact-form-container {
+    margin: 0 auto;
+}
+
+.contact-row h1 {
+    text-align: center;
 }
 
 textarea, input {
